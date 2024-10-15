@@ -1,0 +1,13 @@
+create database admin;
+use admin;
+
+create table tAdmin (fname varchar(10), 
+lname varchar(10), 
+email varchar(20),
+age varchar(5), 
+gender varchar(10), 
+team varchar(50), 
+password int); 
+
+
+insert into tAdmin(fname, lname, email, age , gender, team, password ) values('tal'     , 'harpaz'   , 'tal11@walla.com'   , '16', 'male' , 'maccabi tel aviv' , 123456);

@@ -1,0 +1,16 @@
+create database members;
+use members;
+
+create table tMembers (ID int AUTO_INCREMENT KEY PRIMARY KEY, 
+fname varchar(10), 
+lname varchar(10), 
+email varchar(30),
+age int, 
+gender varchar(10), 
+team varchar(50), 
+password varchar(10)); 
+
+
+insert into tMembers(fname, lname, email, age , gender, team, password ) values('ela'     , 'lev'   , 'ela@lev.com'   , 28, 'female' , 'maccabi tel aviv' , '1111');
+insert into tMembers(fname, lname, email, age , gender, team, password ) values('eli'     , 'levin' , 'eli@levin.com' , 18, 'male' , 'maccabi tel aviv'   , '2222');
+insert into tMembers(fname, lname, email, age , gender, team, password ) values('meira'   , 'lev'   , 'meira@lev.com' , 38, 'female' , 'maccabi tel aviv' , '3333');

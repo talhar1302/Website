@@ -1,0 +1,30 @@
+create database players;
+use  players;
+
+create table tPlayers (
+                        picture varchar(50),  
+					    name varchar(30), 				    	    
+					    age int, 
+					    position varchar(20),
+					    numShirt int);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/barak levi.jpg','barak levi ',21,'Goalkeeper',1);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Juan Pablo.jpg','Juan Pablo ',35,'Goalkeeper',25);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Eitan Tibi.jpg','Eitan Tibi ',26,'Defender',18);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Carlos Garcia.jpg','Carlos Garcia ',30,'Defender',31);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Yoav Ziv.jpg','Yoav Ziv',33,'Defender',14);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Remi Mareval.jpg','Remi Mareval ',31,'Defender',26);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Omri Ben Harush.jpg','Omri Ben Harush ',24,'Defender',20);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/gal alberman.jpg','gal alberman ',31,'Midfielder',6);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Sheran Yeini.jpg','Sheran Yeini ',27,'Defender',21);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Maharan Radi.jpg','Maharan Radi ',31,'Midfielder',9);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/eran zehavi.png','Eran Zehavi ',26,'Midfielder',7);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Dan Einbinder.jpg','Dan Einbinder ',25,'Midfielder',17);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Dor Micha.jpg','Dor Micha ',22,'Midfielder',15);					     					    					     
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Gael Margulies.jpg','Gael Margulies ',20,'Forward ',30);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Omri Altman.jpg','Omri Altman ',20,'Midfielder',29);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Nikola Mitrovic.jpg','Nikola Mitrovic ',27,'Midfielder',24);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Barak Yitzhaki.jpg','Barak Yitzhaki ',29,'Forward ',10);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Barak Badash.jpg','Barak Badash ',31,'Forward ',23);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Tal Ben Haim.jpg','Tal Ben Haim ',24,'Forward ',11);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Rade Prica.jpg','Rade Prica ',33,'Forward ',22);
+insert into tPlayers(picture, name , age, position,numShirt ) values('images/Dor Jan.jpg','Dor Jan ',19,'Forward ',27);

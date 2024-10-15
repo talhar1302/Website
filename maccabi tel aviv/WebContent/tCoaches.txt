@@ -1,0 +1,56 @@
+
+create database coaches;
+use  coaches;
+
+create table tCoaches (  
+					    name varchar(60), 				    	    
+					    beginYear int, 
+					    finishYear int); 					    					     
+insert into tCoaches(name,   beginYear , finishYear ) values('Egon Pollack ',1934,1939);
+insert into tCoaches(name,   beginYear , finishYear ) values('Armin Weiss ',1939,1941);
+insert into tCoaches(name,   beginYear , finishYear ) values(' Egon Pollack ',1941,1947);
+insert into tCoaches(name,   beginYear , finishYear ) values('Jerry Beit haLevi ',1947,1952);
+insert into tCoaches(name,   beginYear , finishYear ) values('Gaul Mechlis ',1952,1953);
+insert into tCoaches(name,   beginYear , finishYear ) values(' Jerry Beit haLevi ',1953,1957); 
+insert into tCoaches(name,   beginYear , finishYear ) values('Yosef Tessler ',1957,1959);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yosef Merimovich ',1959,1961);
+insert into tCoaches(name,   beginYear , finishYear ) values('Ignac Molnár ',1961,1962);
+insert into tCoaches(name,   beginYear , finishYear ) values('Slabolo Stankovic & Israel Jery Bet-Halevy ',1962,1966);
+insert into tCoaches(name,   beginYear , finishYear ) values('Zvi Erlich ',1967,1967);
+insert into tCoaches(name,   beginYear , finishYear ) values('Israel Chlibner ',1967,1968);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yosef Merimovich ',1968,1969);
+insert into tCoaches(name,   beginYear , finishYear ) values('David Schweitzer ',1969,1970);
+insert into tCoaches(name,   beginYear , finishYear ) values('Israel Chlibner ',1970,1971);
+insert into tCoaches(name,   beginYear , finishYear ) values('Itzhak Schneor',1971,1972);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yosef Merimovich',1972,1973); 
+insert into tCoaches(name,   beginYear , finishYear ) values('Itzhak Schneor',1973,1976);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yaakov Grundman',1976,1977);
+insert into tCoaches(name,   beginYear , finishYear ) values('Shmulik Perlman',1977,1978);
+insert into tCoaches(name,   beginYear , finishYear ) values('Nissim Bachar',1978,1979);
+insert into tCoaches(name,   beginYear , finishYear ) values('Zvi Rozen',1979,1980);
+insert into tCoaches(name,   beginYear , finishYear ) values('Zeevic Seltzer',1980,1981);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yaakov Grundman',1981,1982);
+insert into tCoaches(name,   beginYear , finishYear ) values('Nissim Bachar',1982,1983);
+insert into tCoaches(name,   beginYear , finishYear ) values('David Schweitzer',1983,1985);
+insert into tCoaches(name,   beginYear , finishYear ) values('Shimon Shenhar',1985,1987);
+insert into tCoaches(name,   beginYear , finishYear ) values('Giora Spiegel & Dror Bar-Nur',1987,1988);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yosef Merimovich',1988,1989);
+insert into tCoaches(name,   beginYear , finishYear ) values('Zvi Rosen',1990,1991);
+insert into tCoaches(name,   beginYear , finishYear ) values('Avram Grant',1991,1995);
+insert into tCoaches(name,   beginYear , finishYear ) values('Dror Kashtan',1995,1996);
+insert into tCoaches(name,   beginYear , finishYear ) values('Avram Grant',1996,2000);
+insert into tCoaches(name,   beginYear , finishYear ) values('Shlomo Sharf',2000,2000);
+insert into tCoaches(name,   beginYear , finishYear ) values(' Nir Levine',2000,2002);
+insert into tCoaches(name,   beginYear , finishYear ) values('Nir Klinger',2002,2005);
+insert into tCoaches(name,   beginYear , finishYear ) values('Ton Caanen',2005,2006);
+insert into tCoaches(name,   beginYear , finishYear ) values('Eli Cohen',2006,2007);
+insert into tCoaches(name,   beginYear , finishYear ) values('Nir Levine',2007,2008);
+insert into tCoaches(name,   beginYear , finishYear ) values('Ran Ben Shimon',2008,2008);
+insert into tCoaches(name,   beginYear , finishYear ) values('Avi Nimni',2008,2009);
+insert into tCoaches(name,   beginYear , finishYear ) values('Nir Levine',2009,2010);
+insert into tCoaches(name,   beginYear , finishYear ) values('Yossi Mizrahi',2010,2011);
+insert into tCoaches(name,   beginYear , finishYear ) values('Motti Ivanir',2011,2011);
+insert into tCoaches(name,   beginYear , finishYear ) values('Nir Levine',2011,2012);
+insert into tCoaches(name,   beginYear , finishYear ) values('oscar Garcia',2012,2013);
+insert into tCoaches(name,   beginYear , finishYear ) values('Paulo Sousa',2013,2014);
+insert into tCoaches(name,   beginYear , finishYear ) values('oscar Garcia',2014,2016);
